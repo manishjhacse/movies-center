@@ -43,7 +43,7 @@ export default function HeroBanner() {
                 type="text"
                 placeholder="Search for a movie or TV show..."
               />
-              <button>Search</button>
+              <button onClick={()=>{navigate(`/search/${query}`)}}>Search</button>
             </div>
           </div>
       </ContentWrapper>
